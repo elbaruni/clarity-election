@@ -76,7 +76,7 @@
     (define-public (endElection)  ;; stop accepting new votes  
    (if (is-eq admin tx-sender)  ;; only admin
    (begin
-     (var-set votingIsOpen 0)
+     (var-set votingIsOpen close)
      (ok 1))
      (err 0)
    )
