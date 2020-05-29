@@ -16,3 +16,7 @@ To install, download or clone the repo, then:
 To run tests:
 
 `npm test`
+
+## References
+
+- [Blockstack Clarity Documentation](https://docs.blockstack.org/core/smart/clarityref)
